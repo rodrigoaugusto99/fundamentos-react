@@ -1,0 +1,13 @@
+.wrapper {
+    /*somando as width do figma e dividnindo por 16*/
+    max-width: 70rem;
+    margin: 2rem auto;
+    /*se diminuir mt a tela, a conteudo n fica colado*/
+    padding: 0 1rem;
+
+    display: grid;
+    /*primeira coluna (sidebar) tem 256px fixos e a segunda se adapta p qnt couber na tela*/
+    grid-template-columns: 256px 1fr;
+    gap: 2rem;
+    align-items: flex-start;
+}
